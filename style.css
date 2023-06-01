@@ -1,16 +1,20 @@
 #page1{
-    background: linear-gradient(to right, #00000091, #d649f9);
+    background: linear-gradient(to right, #2790f9, #d649f9);
 }
 #page2{
     background-color: black;
 }
-img{
+
+.first{
     float: left;
-    width:9%;
+    width:5%;
     height: 10%;
     position: absolute;
     top:0%;
-    left:0%;
+    left:2%;
+}
+.first:hover{
+    transform: scale(1.1);
 }
 nav {
     background-color: rgba(255, 255, 255); 
@@ -22,20 +26,29 @@ nav {
     left: 0;
     padding: 0;
 }
+
 ul {
     display: flex; 
     justify-content: center;     
     margin-top: 29px;
 }
 li {
-    display: inline-block; 
+    display:inline-block; 
     padding: 0 30px;
     font-size: large;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-nav a:hover {
-    background-color: #d9caca84;
+ul li a{
+    text-decoration: none;
+    color: #0a0505;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #f466f4;
 }
 .login{
     color: rgb(255, 255, 255);
@@ -43,4 +56,36 @@ nav a:hover {
     position: absolute;
     top: 30%;
     left: 50%;
+}
+.content{  
+    width: 1200px;
+    height: 500px;
+    border-radius: 20px;
+    background-color:  rgba(255, 255, 255,0.4); 
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+.second{
+    position: absolute;
+    width:60%;
+    height: 80%;
+    top: 8%;
+    right: 0%;
+}
+.second:hover{
+    transform: translateX(10px);
+}
+h1{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    font-size: 75px;
+    width: 40%;
+    text-shadow: 4px 4px 4px rgba(211, 250, 82, 0.5);
+    color: #000000;
+}
+h1:hover{
+    color:#f74284;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
 }
