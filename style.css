@@ -3,6 +3,8 @@
 }
 #page2{
     background: rgb(0, 0, 0);
+    height: 100%;
+    margin: 0;
 }
 #page3{
     background: rgb(255, 255, 255);
@@ -166,13 +168,13 @@ p3{
     align-items: center;
     color: #020e6a;
 }
-
 .nav1{
     background-color: rgba(19, 3, 3, 0.773); 
     color: #ffecec; 
-    position: absolute;
+    position:fixed;
     top: 0%;
     left: 0%;
+    bottom: 0%;
     height: 100%;
     width: 13%;
     padding: 0;
@@ -190,7 +192,6 @@ p3{
     font-family: Arial;
     font-weight: bold;
     transition: 0.4s ease-in-out;
-    display: flex;
     align-items: center;
 }
 
@@ -203,7 +204,7 @@ p3{
 .third{
     float: left;
     width: 50%;
-    height: 10%;
+    height: 18%;
     position: absolute;
     top:0%;
     left:7%;
@@ -268,7 +269,7 @@ p3{
     left: 69%;
 }
 .box3{
-    background-color: rgb(215, 219, 221 ); 
+    background-color: rgb(163, 168, 171); 
     position: absolute;
     top: 20%;
     left: 53%;
@@ -326,4 +327,84 @@ p3{
     right:9%;
     width: 45px;
     height: 49px;
+}
+.btn1{
+    position: absolute;
+    font-size: 24px;
+    color: #1e0808;
+    top: 89%;
+    left: 79%;
+    width: 40px;
+    height: 35px;
+    border-radius: 20%;
+    background-color: #d8cbcbcf;
+    border: none;
+    cursor: pointer;
+}
+.btn2{
+    position: absolute;
+    font-size: 24px;
+    color: #080a1e;
+    top: 75%;
+    left: 60%;
+    width: 40px;
+    height: 35px;
+    border-radius: 20%;
+    background-color: #76adb7cf;
+    border: none;
+    cursor: pointer;
+}
+.box5{
+    background-color: rgb(164, 202, 202); 
+    position: absolute;
+    top: 700px;
+    left: 18%;
+    height:62%;
+    width: 16%;
+    border-radius: 20px;
+
+}
+p9{
+    font-size: 26px;
+    color: #1e0808;
+    position: absolute;
+    top: 2%;
+    margin-left:30px;
+}
+.fs1,.fs2,.fs3,.fs4{
+    width: 80%;
+    height: 90%;
+    position: absolute;
+    top: 50px;
+    left:16%; 
+}
+.box6{
+    background-color: rgb(164, 202, 202); 
+    position: absolute;
+    top: 700px;
+    left:37%;
+    height: 62%;
+    width: 16%;
+    border-radius: 20px;
+
+}
+.box7{
+    background-color: rgb(164, 202, 202); 
+    position: absolute;
+    top: 700px;
+    left: 59%;
+    height: 62%;
+    width: 16%;
+    border-radius: 20px;
+
+}
+
+.box8{
+    background-color: rgb(164, 202, 202); 
+    position: absolute;
+    top: 700px;
+    left: 79%;
+    height: 62%;
+    width: 16%;
+    border-radius: 20px;
 }
